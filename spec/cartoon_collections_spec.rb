@@ -49,21 +49,21 @@ describe "./cartoon_collections.rb" do
     # end
   # end
 
-  describe "takes in an array of strings and" do
-    small_calls = ["earth", "wind", "fire", "water", "heart"]
-    short_calls = ["wood", "moss"]
+#   describe "takes in an array of strings and" do
+#     small_calls = ["earth", "wind", "fire", "water", "heart"]
+#     short_calls = ["wood", "moss"]
   
-    it "returns true if any string is greater than 4 characters long" do
-      expect(long_planeteer_calls(short_calls)).to eq(true)
-      expect(long_planeteer_calls(small_calls)).to_not eq(true)
-    end
+#     it "returns true if any string is greater than 4 characters long" do
+#       expect(long_planeteer_calls(short_calls)).to eq(true)
+#       expect(long_planeteer_calls(small_calls)).to_not eq(true)
+#     end
   
-    it "returns false if all strings are less than 4 characters long" do
-      expect(long_planeteer_calls(short_calls)).to_not eq(false)
-      expect(long_planeteer_calls(small_calls)).to eq(false)
-    end
-  end
-end
+#     it "returns false if all strings are less than 4 characters long" do
+#       expect(long_planeteer_calls(short_calls)).to_not eq(false)
+#       expect(long_planeteer_calls(small_calls)).to eq(false)
+#     end
+#   end
+# end
 
 
 
