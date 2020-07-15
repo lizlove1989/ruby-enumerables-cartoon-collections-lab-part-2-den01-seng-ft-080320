@@ -46,7 +46,7 @@ describe "./cartoon_collections.rb" do
   #       expect(find_valid_calls(small_calls)).to be(nil)
   #       expect(find_valid_calls(short_calls)).to be(nil)
   #     end
-    end
+    # end
   # end
 
   describe "takes in an array of strings and" do
