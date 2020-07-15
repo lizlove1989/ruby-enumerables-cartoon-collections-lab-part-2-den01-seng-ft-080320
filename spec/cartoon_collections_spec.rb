@@ -5,35 +5,35 @@ describe "./cartoon_collections.rb" do
   other_calls = ["plants", "humans", "mushrooms", "brains"]
   short_calls = ["wood", "moss"]
 
-  # describe "square_array" do
-  #   it "takes in an array of numbers and returns an array of those numbers squared" do
-  #     expect(square_array([1,2,3,4,5])).to eq([1,4,9,16,25])
-  #     expect(square_array([10, 12])).to eq([100, 144])
-  #   end
-  # end
+  describe "square_array" do
+    it "takes in an array of numbers and returns an array of those numbers squared" do
+      expect(square_array([1,2,3,4,5])).to eq([1,4,9,16,25])
+      expect(square_array([10, 12])).to eq([100, 144])
+    end
+  end
 
-  # describe "summon_captain_planet" do
-  #   it "takes in an array of strings and returns a new array where each string is capitalized and has an exclamation point" do
+  describe "summon_captain_planet" do
+    it "takes in an array of strings and returns a new array where each string is capitalized and has an exclamation point" do
       
 
-  #     expect(summon_captain_planet(small_calls)).to eq(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
-  #     expect(summon_captain_planet(other_calls)).to eq(["Plants!", "Humans!", "Mushrooms!", "Brains!"])
-  #   end
-  # end
+      expect(summon_captain_planet(small_calls)).to eq(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
+      expect(summon_captain_planet(other_calls)).to eq(["Plants!", "Humans!", "Mushrooms!", "Brains!"])
+    end
+  end
 
-  # describe "long_planeteer_calls" do
-  #   describe "takes in an array of strings and" do
-  #     it "returns true if any string is greater than 4 characters long" do
-  #       expect(long_planeteer_calls(small_calls)).to eq(true)
-  #       expect(long_planeteer_calls(short_calls)).to_not eq(true)
-  #     end
+  describe "long_planeteer_calls" do
+    describe "takes in an array of strings and" do
+      it "returns true if any string is greater than 4 characters long" do
+        expect(long_planeteer_calls(small_calls)).to eq(true)
+        expect(long_planeteer_calls(short_calls)).to_not eq(true)
+      end
 
-  #     it "returns false if all strings are less than 4 characters long" do
-  #       expect(long_planeteer_calls(short_calls)).to eq(false)
-  #       expect(long_planeteer_calls(small_calls)).to_not eq(false)
-  #     end
-  #   end
-  # end
+      it "returns false if all strings are less than 4 characters long" do
+        expect(long_planeteer_calls(short_calls)).to eq(false)
+        expect(long_planeteer_calls(small_calls)).to_not eq(false)
+      end
+    end
+  end
 
   describe "find_valid_calls" do
     describe "takes in an array of strings" do
